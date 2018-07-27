@@ -4,11 +4,21 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/denly93/leverage",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
     "require": {
         "php": ">=7.0.0",
         "fideloper/proxy": "~3.3",
         "laravel/framework": "5.5.*",
-        "laravel/tinker": "~1.0"
+        "laravel/tinker": "~1.0",
+        "denly93/leverage": "dev-master"
     },
     "require-dev": {
         "filp/whoops": "~2.0",

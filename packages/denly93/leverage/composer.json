@@ -1,0 +1,27 @@
+{
+    "name": "denly93/leverage",
+    "description": "Laravel admin with ACL",
+    "authors": [
+        {
+            "name": "Denny Sutomo",
+            "email": "denly93@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Denly93\\Leverage\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Denly93\\Leverage\\LeverageServiceProvider"
+            ]
+        }
+    }
+}
